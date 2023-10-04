@@ -84,18 +84,6 @@ body{
 }
 
 
-.foottwitt {
-
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  
-}
-
-.foottwitt :hover{
-  text-decoration: underline;
-}
-
 
 .team .card-body i {
   font-size: 20px;
@@ -109,7 +97,13 @@ body{
   box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+.team-photo {
 
+  max-width: 100%;
+  /* height: auto; */
+
+  height: 250px;
+}
 
 /* =====================Responsive css ================*/
 
